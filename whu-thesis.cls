@@ -567,23 +567,23 @@
 
 \cs_new_protected:Npn \__whu_set_cjk_font_mac:
   {
-    \__whu_set_cjk_font_song:nn { Songti ~ SC ~ Light }
+    \__whu_set_cjk_font_song:nn {FZSSK--GBK1-0}
       {
         BoldFont           = Songti ~ SC ~ Bold,
         AutoFakeSlant      = 0.167,
         BoldItalicFont     = Songti ~ SC ~ Bold,
         BoldItalicFeatures = { FakeSlant = 0.167 }
       }
-    \__whu_set_cjk_font_hei:nn { Heiti ~ SC ~ Light }
+    \__whu_set_cjk_font_hei:nn { FZHTK--GBK1-0  }
       {
         BoldFont           = Heiti ~ SC ~ Medium,
         AutoFakeSlant      = 0.167,
         BoldItalicFont     = Heiti ~ SC ~ Medium,
         BoldItalicFeatures = { FakeSlant = 0.167 }
       }
-    \__whu_set_cjk_font_fang:nn { STFangsong }
+    \__whu_set_cjk_font_fang:nn {FZFSK--GBK1-0}
       { AutoFakeBold = 4 , AutoFakeSlant = 0.167 }
-    \__whu_set_cjk_font_kai:nn { Kaiti ~ SC ~ Regular }
+    \__whu_set_cjk_font_kai:nn { FZKTK--GBK1-0 }
       {
         BoldFont           = Kaiti ~ SC ~ Bold,
         AutoFakeSlant      = 0.167,
