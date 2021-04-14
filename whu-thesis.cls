@@ -8,7 +8,7 @@
 
 \NeedsTeXFormat{LaTeX2e}
 \RequirePackage{expl3 , xparse , l3keys2e}
-\ProvidesExplClass{whu-thesis}{2021/03/27}{0.6b}
+\ProvidesExplClass{whu-thesis}{2021/04/15}{0.6c}
   {Wuhan University Thesis Template}
 
 \msg_new:nnn { whu-thesis } { 引擎不支持 }
