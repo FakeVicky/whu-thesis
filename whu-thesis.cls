@@ -965,6 +965,8 @@
       \g__whu_style_cite_style_tl
       {
         \tl_if_eq:NnT \g__whu_style_cite_style_tl { numerical-inline }
+          { \PassOptionsToPackage { citestyle = numeric-comp  } { biblatex } }
+        \tl_if_eq:NnT \g__whu_style_cite_style_tl { numerical-super  }
           { \PassOptionsToPackage { citestyle = gb7714-2015   } { biblatex } }
         \tl_if_eq:NnT \g__whu_style_cite_style_tl { author-year }
           { \PassOptionsToPackage { citestyle = gb7714-2015ay } { biblatex } }
