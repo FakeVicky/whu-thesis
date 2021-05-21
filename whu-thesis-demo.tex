@@ -2,37 +2,38 @@
 %%
 %% Created by WHUTUG
 
-\documentclass{whu-thesis}
+\documentclass[type=bachelor, oneside]{whu-thesis}
+%\bibliographystyle{plain}
 \whusetup
   {
     info               =
       {
-        title          = {武汉大学学位论文 \LaTeX{} 模板\\使用示例文档},
-        title*         = {An Introduction to LaTeX Thesis Template\\of Wuhan University},
-        student-number = {xxxxxxxxxxxxx},
-        school         = {院系名称},
-        author         = {作者姓名},
-        author*        = {Your Name},
+         title          = {基于统计的基本面研究：\\一种机器学习的视角},
+        title*         = {Fundamental Analysis Based on Statistics: A Machine Learning Approach},
+        student-number = {2017302010265},
+        school         = {经济与管理学院},
+        author         = {鲍余薇},
+        author*        = {Yuwei Bao},
         subject        = {学科},
-        major          = {专业名称},
-        advisor        = {教师姓名 , 职称},
+        major          = {金融工程},
+        advisor        = {李斌 , 教授},
         direction      = {研究方向},
-        % date           = {2021/5},
-        keywords       = {关键词 1 , 关键词 2 , 关键词 3 , 关键词 4 , 一个非常非常，非常非常长——的关键词 5},
-        keywords*      = {key word 1 , key word 2 , key word 3 , key word 4 , {and a very very, very very long key word---the key word 5}},
+        % date           = {2021/2},
+        keywords       = {基本面分析 , 错误定价因子 , 机器学习 , 提升回归树},
+        keywords*      = {Quantamental Analysis, Mispricing Factor , Machine Learning , Boosted Regression Trees},
       },
     style              =
       {
         graphics-path  = {{figures/}{data/}},
-        list-of-figures,
-        list-of-tables,
+        list-of-figures = false,
+        list-of-tables = false ,
       },
     element            =
       {
         innovation     = {pages/innovation},
         abstract       = {pages/abstract},
         abstract*      = {pages/enabstract},
-        bibliography   = {ref/refs , ref/thu},
+        bibliography   = {ref/zotero},
         achievements   = {pages/achievements},
         thanks         = {pages/thanks},
         appendix       = {pages/appendix}
@@ -45,4 +46,6 @@
 \include{pages/chapter2}
 \include{pages/chapter3}
 \include{pages/chapter4}
+\include{pages/chapter5}
+\include{pages/chapter6}
 \end{document}
